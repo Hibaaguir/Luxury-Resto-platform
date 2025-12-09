@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=EB+Garamond:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply antialiased bg-charcoal text-champagne font-poppins;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-charcoal-light;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-taupe hover:bg-primary;
+  }
+}
+
+@layer components {
+  /* Button Styles */
+  .btn-primary {
+    @apply px-6 py-3 font-semibold transition-all duration-300 bg-primary text-charcoal rounded-luxury hover:scale-105 hover:shadow-luxury-hover focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-charcoal disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 font-semibold transition-all duration-300 bg-transparent border-2 border-primary text-primary rounded-luxury hover:bg-primary hover:text-charcoal focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-charcoal;
+  }
+
+  .btn-outline {
+    @apply px-6 py-3 transition-all duration-300 bg-transparent border border-taupe text-champagne rounded-luxury hover:border-primary hover:text-primary focus:outline-none focus:ring-2 focus:ring-taupe;
+  }
+
+  /* Card Styles */
+  .card {
+    @apply p-6 transition-all duration-300 border bg-charcoal-light border-taupe/30 rounded-luxury shadow-luxury hover:border-primary/30 hover:shadow-luxury-hover;
+  }
+
+  /* Input Styles */
+  .input {
+    @apply px-4 py-3 transition-all duration-300 border bg-taupe/10 border-taupe text-champagne rounded-luxury placeholder:text-champagne/60 focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  /* Container */
+  .container-luxury {
+    @apply px-4 mx-auto max-w-7xl sm:px-6 lg:px-8;
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    @apply text-transparent bg-gradient-to-r from-primary via-primary-light to-primary bg-clip-text;
+  }
+
+  .bg-gradient-dark {
+    @apply bg-gradient-to-br from-charcoal via-charcoal-light to-charcoal-dark;
+  }
+}
