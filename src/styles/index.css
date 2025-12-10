@@ -56,6 +56,7 @@
     @apply px-4 py-3 transition-all duration-300 border bg-taupe/10 border-taupe text-champagne rounded-luxury placeholder:text-champagne/60 focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 disabled:opacity-50 disabled:cursor-not-allowed;
   }
 
+
   /* Container */
   .container-luxury {
     @apply px-4 mx-auto max-w-7xl sm:px-6 lg:px-8;
@@ -71,3 +72,4 @@
     @apply bg-gradient-to-br from-charcoal via-charcoal-light to-charcoal-dark;
   }
 }
+
