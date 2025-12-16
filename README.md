@@ -1,3 +1,19 @@
+# Luxury Resto Platformt
+
+Projet universitaire réalisé en groupe dans le cadre académique.
+
+## Contexte
+Ce projet a été développé en collaboration dans le cadre d’un travail universitaire.
+Le développement a été effectué sur un seul ordinateur, ce qui explique
+un historique Git centralisé.
+
+## Membres du groupe
+- Zied kmantar
+- Hiba aguir
+- Ranim ben ameur
+
+---
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
