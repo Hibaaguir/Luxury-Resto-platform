@@ -1,4 +1,4 @@
-# Luxury Resto Platformt
+# Luxury Resto Platform
 
 Projet universitaire réalisé en groupe dans le cadre académique.
 
