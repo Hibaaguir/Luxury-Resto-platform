@@ -1,4 +1,4 @@
-# Luxury Resto Platform
+<img width="1913" height="864" alt="Capture d&#39;écran 2026-01-24 211910" src="https://github.com/user-attachments/assets/a274861e-db80-4e1d-9a62-8e27eb878387" /># Luxury Resto Platform
 
 Projet universitaire réalisé en groupe dans le cadre académique.
 
@@ -11,6 +11,10 @@ un historique Git centralisé.
 - Zied kmantar
 - Hiba aguir
 - Ranim ben ameur
+  <img width="1913" height="864" alt="Capture d&#39;écran 2026-01-24 211910" src="https://github.com/user-attachments/assets/613cca39-597f-49ca-a792-171df3ad4b15" />
+
+![Uploading Capture d'écran 2026-01-24 211923.png…]()
+
 
 ---
 
